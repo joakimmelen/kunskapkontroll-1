@@ -1,0 +1,7 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: auto;
+    border-top: 1px solid grey;
+    background: PapayaWhip;
+}

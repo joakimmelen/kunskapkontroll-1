@@ -1,0 +1,7 @@
+main {
+    background-image: url(assets/bigmountain.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
