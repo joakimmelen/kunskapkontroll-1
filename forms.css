@@ -1,0 +1,33 @@
+.contactform {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 1.2em;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  padding: 0.4em 0.9em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subform {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  border-radius: 1em;
+  padding: 1em;
+}

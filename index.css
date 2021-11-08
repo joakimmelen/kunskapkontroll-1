@@ -1,7 +1,14 @@
-.index {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-around;
-    align-items: center;
+.indextop {
+  display: flex;
 }
-
+main {
+  margin: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frontpage {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}

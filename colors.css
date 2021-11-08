@@ -1,0 +1,32 @@
+:root {
+  --main-color: rgb(75, 125, 219);
+  --sec-color: rgb(17, 89, 221);
+  --third-color: rgb(210, 216, 240);
+}
+
+a {
+  color: white;
+}
+
+header {
+  background-color: var(--main-color);
+  color: white;
+}
+
+footer {
+  background-color: rgb(75, 125, 219);
+  color: white;
+}
+
+input[type="submit"] {
+  background-color: var(--main-color);
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--sec-color);
+}
+
+.subform {
+  background-color: var(--third-color);
+}
